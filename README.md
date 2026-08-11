@@ -1,3 +1,5 @@
+
+
 <p align="center">
   <img src="./assets/brand/litter-box-logo.png" alt="LitterBox logo: a magic purple cat sitting in a gold-rimmed litterbox" width="240">
 </p>
@@ -189,6 +191,7 @@ proxies while preserving provider-specific health and limitation metadata.
 ```bash
 mix deps.get
 mix test
+mix litter_box.doctor
 mix format
 mix compile --warnings-as-errors
 ```
